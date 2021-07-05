@@ -1,0 +1,114 @@
+/* Definir altura mínima para o menu fixo */
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+/* cover: Uma palavra-chave que é o inverso de contain. Ajusta a imagem o mais largamente possível e mantém sua proporção (a imagem não fica esticada). A imagem "cobre" o container inteiro, tanto em altura como em largura. Quando a imagem e o container têm diferentes dimensões,a imagem ultrapassa os limites do container em qualquer direção, para continuar mantendo a proporção. Fonte: https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size */
+/* Seletor para personalizar o topo da página home */
+.descr-top{    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: .0rem;
+}
+
+/* Seletor para personalizar a área de serviços da página home */
+.descr-serv{
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 0px;
+    margin-bottom: 0rem !important;
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    /*background-color: #0095eb;*/
+    font-size: 52px;
+    padding-top: 24px;
+}
+.circulo:hover{
+    background-color: #0095eb;
+    color: #fff;
+}
+.centralizar{
+    margin: 0 auto !important;
+    float: none !important;
+}
+/* Seletor para personalizar a área da ação da página home */
+.descr-action{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+/* Seletor para personalizar a área detalhes do serviço na página home */
+.descr-det{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+.titulo{
+    padding-bottom: 60px;
+}
+/* Seletor para personalizar o rodapé da página */
+.footer-per{
+    background-color: #090622;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+.footer-per ul li a.link-footer{
+    color: #fff !important;
+}
+.footer-per ul li a.link-footer:hover{
+    color: #adaeaf !important;
+    text-decoration: none;
+}
+/* Seletor para personalizar o titulo da página sobre empresa*/
+.head-sobre{
+    padding-top: 60px;
+    padding-bottom: 0px;    
+    background-color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;
+}
+/* Seletor para personalizar o conteúdo da página sobre empresa*/
+.sobre{
+    padding-top: 80px;
+    padding-bottom: 80px;    
+    background-color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;    
+}
+.featurette-divider {
+  margin: 5rem 0; 
+}
+/* Seletor para personalizar o titulo da página contato*/
+.head-contato{
+    padding-top: 60px;
+    padding-bottom: 0px;    
+    background-color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;    
+}
+.contato{
+    padding-top: 60px;
+    padding-bottom: 60px;    
+    background-color: #fff;
+    margin-bottom: 0rem !important;
+    border-radius: 0rem;       
+}

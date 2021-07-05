@@ -1,0 +1,16 @@
+{
+    "description": "Projeto Celke",
+    "authors": [
+        {
+            "name": "Iuri Monteiro",
+            "email": "iurigms@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app"
+        }
+    },
+    "require": {}
+}
