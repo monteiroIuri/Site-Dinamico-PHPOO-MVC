@@ -1,4 +1,4 @@
-# Site-Dinamico-PHPOO-MVC
+# Site-Dinâmico-PHPOO-MVC
 Projeto com PHPOO em padrão MVC
 
 - Estrutura padrão MVC com autoload Composer;
