@@ -11,6 +11,4 @@ Projeto com PHPOO em padrão MVC
 
 Link do site modelo  já Hospedado: https://imdevsolution.com.br/site
 
-*Futuramente será implementado AJAX.
-
 Esse projeto foi desenvolvido com a orientação do Curos CELKE. Link: https://celke.com.br/
